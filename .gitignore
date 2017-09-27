@@ -12,6 +12,10 @@
 !Build/
 !Build/**
 
+!WebContent
+!WebContent/
+!WebContent/**
+
 !libs
 !libs/
 !libs/**
