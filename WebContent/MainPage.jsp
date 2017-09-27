@@ -18,7 +18,7 @@
 						<li class="active"><a href="HomePage">Home</a></li>
 						<li><a href="About">About</a></li>
 						<li><a href="Signup">Sign up</a></li>
-						<li><a href="Signin">Login</a></li>
+						<li><a href="Login">Login</a></li>
 					</ul>
 				</div>
 			</nav>
