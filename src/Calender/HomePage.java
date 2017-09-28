@@ -1,4 +1,4 @@
-package test;
+package Calender;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -7,17 +7,13 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/test")
-public class test extends HttpServlet {
+@WebServlet("/HomePage")
+public class HomePage extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-
-	public test() {
-		super();
-	}
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		System.out.println("do this now!");
+		response.sendRedirect("MainPage.jsp");
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
